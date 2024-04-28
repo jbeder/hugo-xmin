@@ -1,6 +1,5 @@
 body {
   max-width: 800px;
-  margin: auto;
   padding: 1em;
   line-height: 1.5;
 }
@@ -10,16 +9,23 @@ body {
 .menu li { display: inline-block; }
 .article-meta, .menu a {
   text-decoration: none;
-  background: #eee;
-  padding: 5px;
   border-radius: 5px;
+  padding-bottom: .5em;
+  border-bottom: 1px solid #eaecef;
 }
-.menu, .article-meta, footer { text-align: center; }
-.title { font-size: 1.1em; }
+.article-meta h1,h2 {
+  margin: 0;
+}
+.title { font-size: 1.1em; font-weight: 500; }
+.date { font-size: .8em; font-weight: 500; }
 footer a { text-decoration: none; }
 hr {
   border-style: dashed;
   color: #ddd;
+}
+a {
+  text-decoration: none;
+  color: #0366d6;
 }
 
 /* code */
